@@ -45,8 +45,8 @@ app.ProjectView = Backbone.View.extend({
     list.$el.html( projectView( this.model.toJSON() ) );
       list.$el.attr('id', 'project-view');
       $('#content').append( list.el );
-      console.log(projectView( this.model.toJSON() ))
-      console.log('hellll')
+      // console.log(projectView( this.model.toJSON() ))
+      // console.log('hellll')
 
   }
 });

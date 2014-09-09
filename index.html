@@ -129,9 +129,6 @@
       <span>|</span>
       <button data-filter=".illustrator">Illustrator</button>
       <button data-filter=".ux">UX Design</button>
-      <button data-filter=".ae">After Effects</button>
-      <button data-filter=".film">Film</button>
-      <button data-filter=".dynamics">Dynamics</button>
     </div><!--///////////close filters //////-->
 
     <div id="image-holder">
@@ -150,9 +147,16 @@
     <ul>
       <div class="project-item-single">
       <li class="title"><h2>{{title}}</h2></li>
+      {{#if projectLink}}
       <li class="project-link"><a href="{{projectLink}}"><p>{{projectLink}}</p></a></li>
+      {{/if}}
       <li class="content"><p>{{content}}</p></li>
       <img src="{{featureImage}}" class="project-image">
+      {{#if video}}
+      {{#each video}}
+      <iframe src="{{video}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="project-video"></iframe>
+      {{/each}}
+      {{/if}}
       </div><!--///////close project-item //////-->
     </ul>
 </script>
@@ -160,10 +164,15 @@
 <!--/////////////////////////////////////////////skills model template ////////////-->
 
 <script type='text/template' id='skills-model-template'>
-      <li class="title">{{title}}</li>
-      <img src="{{featureImage}}" class="view-project">
-      <li class="skillContent">{{content}}</li>
-      <iframe src="{{video}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <img src="{{featureImage}}" class="single-skill-image">
+      <div class="content-box">
+      <li class="skill-content">{{content}}</li>
+      <li class="project-link"><a href="{{projectLink}}" target="_blank">{{title}}</a></li>
+      </div><!--..........close contet box //-->
+      <!-- {{#if video}}
+      <iframe src="{{video}}" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="skills-video"></iframe>
+      {{/if}} -->
+      <div class="line"><div><!--/////close line //// -->
 </script>
 
 <!--///////////////////////////////////////////// skills template ////////////-->
