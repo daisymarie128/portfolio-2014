@@ -15620,7 +15620,6 @@ app.SkillsView = Backbone.View.extend({
   tagName: 'div',
 
   events: {
-    'click #filters button': 'filterButton'
   },
 
   initialize: function () {
@@ -15634,13 +15633,15 @@ app.SkillsView = Backbone.View.extend({
     var list = this
     console.log(list)
     var skillsView = Handlebars.compile(app.templates.skillsView);
-    console.log(list)
+    // console.log(list)
     this.$el.html( skillsView );
     var ul = list.$el.find('#skills')
+    console.log('is this whats breaking on skills')
 
     app.skills.each(function(skill){
       var skillView = new app.SkillModelView( {model: skill} );
       ul.append( skillView.render() );
+
     })
 
     this.$el.attr('id', 'all-skill-view');
