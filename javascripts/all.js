@@ -15402,10 +15402,6 @@ app.IndexView = Backbone.View.extend({
     console.log('rendering index');
     $('body').css({'background-color': '#7BC794'});
     $('.nav-bar a').css({'color': '#FFF'})
-    $('.nav-bar a::before').css({'background': '#FFF'})
-    $('.nav-bar a::after').css({'background': '#FFF'})
-    $('.nav-bar a:hover').css({'color': '#FFF'})
-    $('.nav-bar a:focus').css({'color': '#FFF'})
 
     $('.idiot').fadeIn(1300);
     $('.bannana').animate({
@@ -15598,6 +15594,7 @@ app.SkillModelView = Backbone.View.extend({
 
   render: function () {
     $('.nav-bar a').css({'color': '#000'})
+    $('body').css({'color': '#000'})
     console.log(this.model)
     var template = Handlebars.compile( app.templates.skillsModelView )
     this.$el.html( template( this.model.toJSON() ) )
