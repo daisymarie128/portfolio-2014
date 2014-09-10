@@ -215,60 +215,61 @@ nav a:focus {
   width: 80%;
   top: 100px;
   padding: 0;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 15%; }
 
-/* line 234, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 235, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #portfolio {
   padding: 0; }
 
-/* line 238, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 239, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #portfolio-content {
   position: relative; }
 
-/* line 242, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 243, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #filters {
   position: relative; }
 
-/* line 246, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 247, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #image-holder {
   position: relative;
   width: 100%;
   height: 412px; }
 
-/* line 252, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 253, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .item {
   width: 100%;
   position: relative;
   top: 0; }
 
-/* line 258, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 259, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .item img {
   width: 100%; }
 
-/* line 262, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 263, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .item.w2 {
   width: 100%; }
 
-/* line 267, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 268, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #index-content {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 0; }
 
-/* line 275, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 276, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .videoContainer {
   position: absolute;
   height: 100%;
   width: 100%;
   overflow: hidden; }
 
-/* line 283, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 284, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .videoContainer video {
   min-width: 100%;
   min-height: 100%; }
 
-/* line 288, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 289, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 span {
   padding-right: 1%;
   padding-left: 1%;
@@ -277,32 +278,32 @@ span {
   font-weight: bold;
   font-size: 1em; }
 
-/* line 297, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 298, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-item {
   display: inline-block;
   width: 25%;
   padding-right: 0.5%;
   /*position: relative;*/ }
 
-/* line 304, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 305, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .isotope {
   background: #DDD;
   max-width: 1200px; }
 
 /*clear fix*/
-/* line 310, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 311, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .isotope:after {
   content: '';
   display: block;
   clear: both; }
 
-/* line 317, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 318, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .main-filter {
   font-size: 1em;
   margin: 0;
   margin-bottom: 5px; }
 
-/* line 323, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 324, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 button {
   background-color: #7BC794;
   border: 0;
@@ -323,23 +324,23 @@ button {
   width: auto;
   text-align: center; }
 
-/* line 344, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 345, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 button:hover {
   background-color: #000;
   /*  border: none;
   outline: none;*/ }
 
-/* line 350, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 351, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 button:visited {
   background-color: #7BC794; }
 
-/* line 354, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 355, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 button:active {
   background-color: #7BC794;
   border: none;
   outline: none; }
 
-/* line 360, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 361, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .main-filter {
   font-size: 1em;
   margin: 0;
@@ -347,7 +348,7 @@ button:active {
   padding: 10px 40px; }
 
 /*////////////////////////project style ///////////*/
-/* line 369, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 370, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #project-view {
   position: relative;
   width: 80%;
@@ -355,7 +356,7 @@ button:active {
   padding: 0;
   margin: auto; }
 
-/* line 377, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 378, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .back {
   width: auto;
   max-width: 5%;
@@ -376,12 +377,12 @@ button:active {
   text-align: center;
   margin-left: 1em; }
 
-/* line 398, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 399, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .back:hover, .back a:hover {
   background-color: #7BC794;
   text-decoration: none; }
 
-/* line 403, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 404, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .back a {
   padding: 0.5em;
   color: #000;
@@ -393,17 +394,17 @@ button:active {
   transition: color 0.3s;
   text-decoration: none; }
 
-/* line 416, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 417, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-image {
   width: 50%;
   display: inline-block;
   vertical-align: top; }
 
-/* line 422, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 423, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-image img {
   width: 100%; }
 
-/* line 426, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 427, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .title {
   text-transform: uppercase;
   width: 30%;
@@ -412,7 +413,7 @@ button:active {
   font-weight: 900;
   font-size: 1.2em; }
 
-/* line 435, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 436, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .content {
   width: 40%;
   list-style: none;
@@ -423,12 +424,12 @@ button:active {
   font-size: 0.9em;
   font-weight: normal; }
 
-/* line 446, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 447, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-link a {
   color: #000;
   text-decoration: none; }
 
-/* line 451, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 452, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-video {
   width: 45%;
   height: 300px;
@@ -436,36 +437,37 @@ button:active {
   display: inline-block;
   padding-top: 4%; }
 
-/* line 459, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 460, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-link a:hover {
   color: #7BC794; }
 
 /*///////// skills style /////////////*/
-/* line 465, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 466, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #all-skill-view {
   position: relative;
   width: 80%;
   top: 100px;
   padding: 0;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 15%; }
 
-/* line 473, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 475, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .single-skill-image {
   width: 50%;
   display: inline-block;
   vertical-align: top;
   position: relative; }
 
-/* line 480, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 482, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .single-skill-image img {
   width: 100%; }
 
-/* line 484, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 486, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .skill-content {
   font-family: Avenir Next;
   margin: 0; }
 
-/* line 489, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 491, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .skills-video {
   width: 45%;
   height: 300px;
@@ -473,14 +475,14 @@ button:active {
   display: inline-block;
   padding-top: 4%; }
 
-/* line 497, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 499, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-link {
   width: 100%;
   padding-top: 4%;
   position: relative;
   left: auto; }
 
-/* line 504, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 506, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-link a {
   font-family: Avenir Next;
   font-weight: 900;
@@ -488,11 +490,11 @@ button:active {
   margin: 0;
   color: #000; }
 
-/* line 512, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 514, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .project-link a:hover {
   color: #7BC794; }
 
-/* line 518, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 520, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .content-box {
   width: 40%;
   display: inline-block;
@@ -501,17 +503,18 @@ button:active {
   padding: 4%; }
 
 /*///////// about style /////////////*/
-/* line 528, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 530, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #about-content {
   position: relative;
-  top: 90px; }
+  top: 90px;
+  padding-bottom: 5%; }
 
-/* line 533, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 536, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #about-content p {
   font-family: Avenir Next;
   margin: 0; }
 
-/* line 538, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 541, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .hello {
   font-family: Avenir Next;
   font-weight: 900;
@@ -519,13 +522,13 @@ button:active {
   margin: 0;
   text-transform: uppercase; }
 
-/* line 546, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 549, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .line {
   width: 100%;
   height: 5px;
   background-color: #000; }
 
-/* line 552, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 555, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts, #boring-facts, #contact {
   width: 50%;
   padding: 2%;
@@ -533,55 +536,54 @@ button:active {
   margin-top: 2%;
   display: inline-block; }
 
-/* line 560, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 563, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts, #contact {
   margin-left: 50%; }
 
-/* line 564, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 567, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts p {
-  font-weight: 900;
   color: #000;
   font-size: 1.2em;
   /*background-color: #FFD300;*/
   padding: 1%; }
 
-/* line 572, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 574, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts li, #contact li, ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 578, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 580, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts ul, #contact ul {
   list-style: none;
   margin: 0; }
 
-/* line 583, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 585, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .email:hover {
   /*text-transform: lowercase;*/ }
 
-/* line 587, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 589, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .qf-title, .bf-title, .contact-title {
   font-family: Avenir Next;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2em; }
 
-/* line 594, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 596, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .contact-content h2 {
   font-family: Avenir Next;
   font-weight: 900;
   font-size: 1.2em; }
 
 /* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
-/* line 602, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 604, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .cl-effect-2 a {
   line-height: 44px;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   perspective: 1000px; }
 
-/* line 609, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 611, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .cl-effect-2 a span {
   position: relative;
   display: inline-block;
@@ -597,7 +599,7 @@ button:active {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 
-/* line 625, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 627, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .csstransforms3d .cl-effect-2 a span::before {
   position: absolute;
   top: 100%;
@@ -617,7 +619,7 @@ button:active {
   -moz-transform-origin: 50% 0;
   transform-origin: 50% 0; }
 
-/* line 646, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 648, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
   -webkit-transform: rotateX(90deg) translateY(-22px);
@@ -625,7 +627,7 @@ button:active {
   transform: rotateX(90deg) translateY(-22px);
   text-align: center; }
 
-/* line 654, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
+/* line 656, /Users/daisy_madonna808/portfolio_site2014/portfolio2014/source/stylesheets/all.css.scss */
 .csstransforms3d .cl-effect-2 a:hover span::before,
 .csstransforms3d .cl-effect-2 a:focus span::before {
   background: #FFD300;
