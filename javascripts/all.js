@@ -15207,7 +15207,7 @@ app.Router = Backbone.Router.extend({
        new app.Project({
         id: 5,
         title: 'Lightbulb Quote',
-        filterTags: 'animation design illustrator',
+        filterTags: 'animation3d design illustrator',
         content: 'I created this short animation in 2011. The brief was to create an animation on using letters, which represented the quote from Albert Ienstein "To invent something, all you need is imagination and a big pile of junk." I complemented this with the song by Gene Simons, Imagination. I created all the elements in Illustrator and animated the project in After Effects.',
         featureImage: 'images/lightbulb.png',
         image: [
@@ -15222,7 +15222,7 @@ app.Router = Backbone.Router.extend({
         id: 6,
         title: "Muay Thai Store Sydney",
         filterTags: 'design illustrator',
-        content: 'Backbone is hell',
+        content: 'Muay Thai Store is an online Muay Thai and boxing supply retailer based in Sydney. They approached me to help them with graphical services, which included logo design image editing and also adjusting things for different mediums.',
         featureImage: 'images/muaythaistore-insitu-01.png',
         image: [
           'one',
@@ -15230,7 +15230,7 @@ app.Router = Backbone.Router.extend({
         ],
         video: [
         ],
-        projectLink: 'muaythaistoresydney.com'
+        projectLink: 'muaythaistoresydney.com.au'
       }),
        new app.Project({
         id: 7,
