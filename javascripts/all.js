@@ -15153,8 +15153,6 @@ app.Router = Backbone.Router.extend({
         content: 'Photocrapper was designed as a simple app where you could upload images of your choice where you could follow friends and view their images. The goal with this app was to be a learning experience for me to understand and enhance my programming skills. I aimed to understand how to create a simple app like instagram without the cool filters. This app was created as my first project and was a great learning experience, I intend on taking this further and adding some filters and sharing features.',
         featureImage: 'images/photocrapper-insitu-01.png',
         image: [
-          'one',
-          'two'
         ],
         projectLink: 'http://photocrapper.herokuapp.com/'
       }),
@@ -15165,8 +15163,6 @@ app.Router = Backbone.Router.extend({
         content: 'This web application was created as part of a team, who all had the same interests of creating a 3D audio visualiser. We used the web Audio API and Three.js to get this app working. I worked on the visual side of the project which meant most of my work was done in javascript using Three.js. I loved building this app as it was something I was very interested in and it was also a great way of exploring new frameworks. As for the future of this project I plan to continue to create more visualiser and experiment with different and interesting things you can do with Three.js.',
         featureImage: 'images/threedee-insitu.png',
         image: [
-          'one',
-          'two'
         ],
         video: [
         ],
@@ -15179,8 +15175,6 @@ app.Router = Backbone.Router.extend({
         content: 'PubCrawl is an app designed to be a social game. It allows users to create accounts, follow friends and pubs, view challenges and try to complete them to earn points and badges. This app not only provides a social fun experience for users but can also benifit pubs and clubs to promote their bussiness and reel in patrons. This app started as a project for a course but has developed into a start up which I am continuosly working on and adding new features to until its ready to be released to the public. I started working on this project alone and have since recruited the amazing developer Larlyn Tanasap. We have built this app using Ruby on Rails, Backbone, Haml, Sass, google maps API and PhoneGap. ',
         featureImage: 'images/pubcrawl-insitu-01.png',
         image: [
-          'one',
-          'two'
         ],
         video: [
         ],
@@ -15211,8 +15205,6 @@ app.Router = Backbone.Router.extend({
         content: 'I created this short animation in 2011. The brief was to create an animation on using letters, which represented the quote from Albert Ienstein "To invent something, all you need is imagination and a big pile of junk." I complemented this with the song by Gene Simons, Imagination. I created all the elements in Illustrator and animated the project in After Effects.',
         featureImage: 'images/lightbulb.png',
         image: [
-          'one',
-          'two'
         ],
         video: [
         ],
@@ -15225,8 +15217,6 @@ app.Router = Backbone.Router.extend({
         content: 'Muay Thai Store is an online Muay Thai and boxing supply retailer based in Sydney. They approached me to help them with graphical services, which included logo design image editing and also adjusting things for different mediums.',
         featureImage: 'images/muaythaistore-insitu-01.png',
         image: [
-          'one',
-          'two'
         ],
         video: [
         ],
@@ -15234,13 +15224,24 @@ app.Router = Backbone.Router.extend({
       }),
        new app.Project({
         id: 7,
+        title: "SRG Thai Boxing",
+        filterTags: 'design illustrator',
+        content: 'SRG Thai Boxing is a Muay Thai Gym based in Sydney who are also the official Australian training center for Yokkao Boxing, which is a world renowned Thai Boxing brand with affilications all around the globe. I have worked on a number of different products for SRG, some of which include logo designs, posters, magazine spreads, promotional material, product design, clothing and much more. ',
+        featureImage: 'images/srg.png',
+        image: [
+          'images/tickets.png',
+        ],
+        video: [
+        ],
+        projectLink: 'muaythaistoresydney.com.au'
+      }),
+       new app.Project({
+        id: 8,
         title: "Mountains",
         filterTags: 'design illustrator ux',
         content: 'This was a mockup made for a class project. The client was a small skateboarding company looking to make their mark on the web. The ux of this site was meant to be simplistic and basic so users could navigate around and be made for multiplatform without a very drastic style change.',
         featureImage: 'images/mountains-insitu-01.png',
         image: [
-          'one',
-          'two'
         ],
         video: [
         ]
