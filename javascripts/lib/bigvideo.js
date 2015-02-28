@@ -7,7 +7,6 @@
     Dependencies: jQuery, jQuery UI (Slider), Video.js, ImagesLoaded
 */
 
-
 ;(function($) {
 
     $.BigVideo = function(options) {

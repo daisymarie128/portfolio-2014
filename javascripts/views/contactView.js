@@ -25,4 +25,3 @@ app.ContactView = Backbone.View.extend({
     console.log('rendering contact')
   }
 })
-;
