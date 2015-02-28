@@ -38,3 +38,4 @@ app.IndexView = Backbone.View.extend({
     $('.idiot').fadeIn(1300);
   }
 })
+;
