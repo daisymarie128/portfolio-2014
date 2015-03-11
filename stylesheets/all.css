@@ -1,10 +1,10 @@
 @font-face {
   font-family: Avenir Next;
-  src: url("../javascripts/AvenirNext.ttc"); }
+  src: url("AvenirNext.ttc"); }
 
 @font-face {
   font-family: Insaniburger;
-  src: url("../javascripts/Insanibu.ttf"); }
+  src: url("Insanibu.ttf"); }
 
 /* line 4, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 body {
