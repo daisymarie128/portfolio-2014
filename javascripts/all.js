@@ -15245,6 +15245,17 @@ app.Router = Backbone.Router.extend({
         ],
         video: [
         ]
+      }),
+       new app.Project({
+        id: 9,
+        title: "Neurosky Visualiser",
+        filterTags: 'web-development javascript',
+        content: 'Work in progress currently. Working on creating a visualizer for the Neurosky Brainsensor, the visualizer will help us analyse data faster and be able to understand what happens when you do different things with the sensor. Working with Charlie Gerard.',
+        featureImage: 'images/nuero.png',
+        image: [
+        ],
+        video: [
+        ]
       })
     ]),
 
@@ -15254,7 +15265,7 @@ app.Router = Backbone.Router.extend({
         id: 1,
         filterTags: '',
         title: 'HTML Generative Art',
-        content: 'Photocrapper was designed as a simple app where you could upload images of your choice where you could follow friends and view their images. The goal with this app was to be a learning experience for me to understand and enhance my programming skills. I aimed to understand how to create a simple app like instagram without the cool filters. This app was created as my first project and was a great learning experience, I intend on taking this further and adding some filters and sharing features.',
+        content: 'I have great passion for art and design so I wanted to experiment what the web could do in terms of generative art. I played with using the canvas in HTML and the possibilities it could have for future ideas. This experiment simply loops through a circle being drawn, iterating over each line slowly changing the color and then erasing it off the canvas. Things that can still be done to make this more intersting are too make it more interactive depending maybe on the users movements, optimize the processing of it, as it gets extremly slow after a while.',
         featureImage: 'images/generative_art.png',
         image: [
           'images/generative_art.png',
@@ -15275,7 +15286,7 @@ app.Router = Backbone.Router.extend({
         id: 3,
         programsUSed: 'After Effects, AE Script',
         title: 'Orb',
-        content: 'This was a test to create a realistic ocean, I had to lower the quality of the video and only render a few seconds due to computer performance reasons. I created this using AutoDesks Maya dynamics. In future I would like to re-render this scene to its full length can not have to compress the file size for uploading.',
+        content: 'This was something I created in 2012 as a test for what was possible to do in After Effects, and how to create a 3D particle feel without using any 3D software at all. It uses a set of images overlayed on each other and inimated effects to give the illussion of a 3D particle effect.',
         featureImage: 'images/orb.png',
         video: '//player.vimeo.com/video/105139261?byline=0&amp;color=7BC794',
         projectLink: 'http://vimeo.com/54505411'
