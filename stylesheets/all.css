@@ -524,58 +524,57 @@ button:active {
 #quick-facts, #boring-facts, #contact {
   width: 50%;
   padding: 2%;
-  background-color: #7BC794;
   margin-top: 2%;
   display: inline-block; }
 
-/* line 562, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 561, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts, #contact {
   margin-left: 50%; }
 
-/* line 566, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 565, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts p {
   color: #000;
   font-size: 1.2em;
   /*background-color: #FFD300;*/
   padding: 1%; }
 
-/* line 573, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 572, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts li, #contact li, ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 579, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 578, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 #quick-facts ul, #contact ul {
   list-style: none;
   margin: 0; }
 
-/* line 584, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 583, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .email:hover {
   /*text-transform: lowercase;*/ }
 
-/* line 588, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 587, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .qf-title, .bf-title, .contact-title {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
   font-size: 2em; }
 
-/* line 595, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 594, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .contact-content h2 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
   font-size: 1.2em; }
 
 /* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
-/* line 603, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 602, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .cl-effect-2 a {
   line-height: 44px;
   -webkit-perspective: 1000px;
   -moz-perspective: 1000px;
   perspective: 1000px; }
 
-/* line 610, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 609, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .cl-effect-2 a span {
   position: relative;
   display: inline-block;
@@ -591,7 +590,7 @@ button:active {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
 
-/* line 626, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 625, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .csstransforms3d .cl-effect-2 a span::before {
   position: absolute;
   top: 100%;
@@ -611,7 +610,7 @@ button:active {
   -moz-transform-origin: 50% 0;
   transform-origin: 50% 0; }
 
-/* line 647, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 646, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .cl-effect-2 a:hover span,
 .cl-effect-2 a:focus span {
   -webkit-transform: rotateX(90deg) translateY(-22px);
@@ -619,7 +618,7 @@ button:active {
   transform: rotateX(90deg) translateY(-22px);
   text-align: center; }
 
-/* line 655, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
+/* line 654, /Users/daisymarie128/portfolio2014/source/stylesheets/all.css.scss */
 .csstransforms3d .cl-effect-2 a:hover span::before,
 .csstransforms3d .cl-effect-2 a:focus span::before {
   background: #FFD300;
