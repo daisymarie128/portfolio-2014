@@ -117,7 +117,7 @@ app.Router = Backbone.Router.extend({
         id: 9,
         title: "Neurosky Visualiser",
         filterTags: 'web-development javascript',
-        content: 'Work in progress currently. Working on creating a visualizer for the Neurosky Brainsensor, the visualizer will help us analyse data faster and be able to understand what happens when you do different things with the sensor. Working with Charlie Gerard.',
+        content: 'Work in progress currently. Working on creating a visualizer for the Neurosky Brainsensor, the visualizer will help us analyse data faster and be able to identify patterns in data corresponding to certain actions executed while wearing the sensor. Working with Charlie Gerard.',
         featureImage: 'images/nuero.png',
         image: [
         ],
